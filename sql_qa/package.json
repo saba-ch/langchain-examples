@@ -1,0 +1,26 @@
+{
+  "name": "sql_qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import=tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.48",
+    "@langchain/langgraph": "^0.3.6",
+    "@langchain/openai": "^0.5.18",
+    "dotnet": "^1.1.4",
+    "langchain": "^0.3.29",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.25",
+    "zod": "^3.25.74"
+  }
+}
