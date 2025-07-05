@@ -1,0 +1,25 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import=tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/langgraph": "^0.3.6",
+    "@langchain/langgraph-checkpoint": "^0.0.18",
+    "@langchain/mcp-adapters": "^0.5.2",
+    "@langchain/openai": "^0.5.16",
+    "dotenv": "^17.0.1",
+    "langchain": "^0.3.29"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3"
+  }
+}

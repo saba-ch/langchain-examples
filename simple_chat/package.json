@@ -1,0 +1,22 @@
+{
+  "name": "simple_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import=tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/core": "^0.3.62",
+    "@langchain/openai": "^0.5.16",
+    "dotenv": "^17.0.1",
+    "langchain": "^0.3.29"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}

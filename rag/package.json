@@ -1,0 +1,25 @@
+{
+  "name": "rag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import=tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/community": "^0.3.48",
+    "@langchain/core": "^0.3.62",
+    "@langchain/langgraph": "^0.3.6",
+    "@langchain/openai": "^0.5.17",
+    "cheerio": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.29"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}

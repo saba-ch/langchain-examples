@@ -1,0 +1,24 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import=tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/core": "^0.3.62",
+    "@langchain/langgraph": "^0.3.6",
+    "@langchain/openai": "^0.5.17",
+    "dotenv": "^17.0.1",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.73"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}
